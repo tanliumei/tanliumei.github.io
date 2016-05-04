@@ -1,6 +1,6 @@
 {
   "name": "谭镠美博客 Tanliumei.GitHub.io",
   "tagline": "谭镠美博客",
-  "body": "# tanliumei.github.io\r\n谭镠美博客\r\n# First\r\n[参考网站](http://blog.csdn.net/renfufei/article/details/37725057/)\r\n`import vte;\r\nimport gtk\r\nv = vte.Terminal ()\r\nv.connect (\"child-exited\", lambda term: gtk.main_quit())\r\nv.fork_command()\r\nwindow = gtk.Window()\r\nwindow.add(v)\r\nwindow.connect('delete-event', lambda window, event: gtk.main_quit())\r\nwindow.show_all()`",
+  "body": "# tanliumei.github.io\r\n谭镠美博客\r\n# First\r\n[参考网站](http://blog.csdn.net/renfufei/article/details/37725057/)\r\n`<div style=\"background-color:black;overflow:hidden;width:100px;height:100px\">import vte;\r\nimport gtk\r\nv = vte.Terminal ()\r\nv.connect (\"child-exited\", lambda term: gtk.main_quit())\r\nv.fork_command()\r\nwindow = gtk.Window()\r\nwindow.add(v)\r\nwindow.connect('delete-event', lambda window, event: gtk.main_quit())\r\nwindow.show_all()</div>`",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
